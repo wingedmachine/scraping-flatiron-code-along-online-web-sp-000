@@ -6,10 +6,7 @@ class Course
     COURSES
   end
 
-  def initialize(title, schedule, description)
-    @title = title
-    @schedule = schedule
-    @description = description
+  def initialize
     COURSES << self
   end
 end
